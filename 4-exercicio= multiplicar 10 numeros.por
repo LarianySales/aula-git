@@ -3,17 +3,27 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro nums[5] ,i ,soma
+		inteiro nums[10], i, mult
 
-		escreva("digite 5 números:")
-
-		para(i = 0;i < 5;i++){
+		escreva("Digite 10 números:")
+		para(i = 0;i < 10;i++){
 			leia(nums[i])
 		}
-		para( i 
+          
+		para(i = 0;i<10;i++){
+			mult = nums[i] * 5
+		}
+		//listando vetor do mult
+		 escreva("números informados:\n")
+		para( i = 0;i < 10;i++){
+		    escreva("\t",nums[i],"")	
+		}
 
-		escreva("a soma dos números é igual à: ",soma)
-		
+		escreva("\nnúmeros multiplicados por 5:\n")
+		para(i = 0;i<10;i++){
+			mult = nums[i] * 5
+			escreva("\t",mult," ")
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -21,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 149; 
+ * @POSICAO-CURSOR = 342; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

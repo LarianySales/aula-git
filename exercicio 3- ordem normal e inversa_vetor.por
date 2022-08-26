@@ -3,17 +3,28 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro nums[5] ,i ,soma
+		inteiro i
+		cadeia nomes[5]
 
-		escreva("digite 5 números:")
+		escreva("Digite 5 nomes aleatórios:")
+		
 
 		para(i = 0;i < 5;i++){
-			leia(nums[i])
+			leia(nomes[i])
 		}
-		para( i 
+		 //para armazenar os nomes
 
-		escreva("a soma dos números é igual à: ",soma)
+		escreva("ordem certa:\n")// informar a ordem normal
 		
+		para(i = 0;i < 5;i++){
+			escreva(" ",nomes[i],"\n")
+		}
+
+		escreva("ordem inversa:\n")//informar a ordem inversa
+		
+          para(i = 4; i>= 0;--i){
+			escreva(" ",nomes[i],"\n")
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -21,7 +32,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 149; 
+ * @POSICAO-CURSOR = 243; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
